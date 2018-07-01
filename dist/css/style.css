@@ -1,0 +1,134 @@
+.add_form
+{
+	width: 35%;
+	margin: 30px auto;
+	min-width: 300px;
+
+}
+.form_content
+{
+	background-color: white;
+	padding-top: 5px;
+	border-radius: 20px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+}
+.form_fields
+{
+	padding-top: 10px;
+	padding-right:  20px;
+	padding-bottom:  20px;
+	padding-left:  20px;
+}
+.add_form input
+{
+	margin-bottom:  10px;
+	border-radius: 3px;
+	height: 35px;
+}
+.add_form select
+{
+	margin-bottom:  10px;
+	border-radius: 3px;
+}
+#btn_submit
+{
+	width: 100%;
+	background: #409b31;
+	color: white;
+	padding:8px;
+	border-radius: 5px;
+	font-size: 20px;
+	transition: .5s;
+	border:solid 1px white;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5), 0 1px 3px 0 rgba(0, 0, 0, 0.19);
+}
+#btn_submit:hover
+{
+	background-color: #155f09;
+	color: #000;
+}
+#error_message
+{
+	padding: 5px;
+	background: #b10929;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5), 0 1px 3px 0 rgba(0, 0, 0, 0.19);
+	-webkit-animation-iteration-count:1;
+    -webkit-animation-duration:1s;
+    -o-animation-iteration-count:1;
+    -o-animation-duration:1s;
+    -mozs-animation-iteration-count:1;
+    -mozs-animation-duration:1s;
+}
+.content-header h1
+{ 
+	color: #E36B26;
+	font-weight: bold;
+}
+#successF
+{
+	height: 170px;
+	width: 300px;
+	background: #3C9719;
+	border-radius: 5px;
+	z-index: 9999;
+	margin-top: -140px;
+	left: 0px;
+	color: white;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5), 0 1px 3px 0 rgba(0, 0, 0, 0.19);
+	-webkit-animation-iteration-count:1;
+    -webkit-animation-duration:s;
+    -moz-animation-iteration-count:1;
+    -moz-animation-duration:1s;
+    -o-animation-iteration-count:1;
+    -o-animation-duration:1s;
+}
+#success_top
+{
+	background: #fff;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+#success_Title
+{
+	text-align: center;
+	padding: 7px;
+	color: #3C9719;
+}
+#inside_success
+{
+	padding-top:5px;
+	padding: 10px;
+}
+.close 
+{
+    color: #BD0F54;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+#success_Message_update
+{
+	background: #3C9719;
+	padding: 7px;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5), 0 1px 2px 0 rgba(0, 0, 0, 0.19);
+	-webkit-animation-iteration-count:1;
+    -webkit-animation-duration:s;
+    -moz-animation-iteration-count:1;
+    -moz-animation-duration:1s;
+    -o-animation-iteration-count:1;
+    -o-animation-duration:1s;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
